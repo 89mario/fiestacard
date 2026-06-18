@@ -22,6 +22,3 @@ export default function Home() {
     </main>
   );
 }
-git init
-
-git init
