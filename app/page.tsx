@@ -8,8 +8,8 @@ export default function Home() {
 
       <section className="text-center py-20 px-6">
         <h2 className="text-5xl font-bold mb-6">
-          Invitaciones digitales para todo tipo de eventos
-        </h2>
+         <p>Las mejores invitaciones digitales de Colombia</p>
+                 </h2>
 
         <p className="text-xl text-gray-600 mb-8">
           Cumpleaños, matrimonios, grados, baby shower y mucho más.
