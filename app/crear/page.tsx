@@ -40,4 +40,17 @@ export default function CrearInvitacion() {
       </div>
     </main>
   );
-}
+}import Link from "next/link";
+<Link
+  href="/crear"
+  className="bg-purple-700 hover:bg-purple-800 text-white px-10 py-4 rounded-xl text-lg font-semibold"
+>
+  Crear Invitación
+</Link>
+import Link from "next/link";
+<Link
+  href="/crear"
+  className="bg-purple-700 hover:bg-purple-800 text-white px-10 py-4 rounded-xl text-lg font-semibold"
+>
+  Crear Invitación
+</Link>
