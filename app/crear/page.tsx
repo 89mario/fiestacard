@@ -54,3 +54,50 @@ import Link from "next/link";
 >
   Crear Invitación
 </Link>
+export default function CrearInvitacion() {
+  return (
+    <main className="min-h-screen bg-gray-100 p-8">
+      <h1 className="text-4xl font-bold text-center mb-8">
+        Crear Invitación
+      </h1>
+
+      <div className="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+        <input
+          type="text"
+          placeholder="Nombre del evento"
+          className="w-full border p-4 rounded-lg mb-4"
+        />
+
+        <input
+          type="date"
+          className="w-full border p-4 rounded-lg mb-4"
+        />
+
+        <input
+          type="time"
+          className="w-full border p-4 rounded-lg mb-4"
+        />
+
+        <input
+          type="text"
+          placeholder="Lugar del evento"
+          className="w-full border p-4 rounded-lg mb-4"
+        />
+
+        <textarea
+          placeholder="Descripción del evento"
+          rows={5}
+          className="w-full border p-4 rounded-lg mb-4"
+        />
+
+       <Link
+  href="/crear"
+  className="bg-purple-700 hover:bg-purple-800 text-white px-10 py-4 rounded-xl text-lg font-semibold inline-block"
+>
+  Crear Invitación
+</Link>
+      </div>
+    </main>
+  );
+}
+import Link from "next/link";
