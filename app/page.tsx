@@ -17,9 +17,12 @@ export default function Home() {
           Cumpleaños, matrimonios, grados, baby shower, bautizos y mucho más.
         </p>
 
-        <button className="bg-purple-700 hover:bg-purple-800 text-white px-10 py-4 rounded-xl text-lg font-semibold">
-          Crear Invitación
-        </button>
+        <Link
+  href="/crear"
+  className="bg-purple-700 hover:bg-purple-800 text-white px-10 py-4 rounded-xl text-lg font-semibold inline-block"
+>
+  Crear Invitación
+</Link>
       </section>
 
       {/* Servicios */}
@@ -103,3 +106,6 @@ export default function Home() {
     </main>
   );
 }
+
+export default function Home() {
+  import Link from "next/link";
